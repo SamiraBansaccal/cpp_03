@@ -6,7 +6,7 @@
 /*   By: sbansacc <sbansacc@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/20 01:29:33 by sbansacc          #+#    #+#             */
-/*   Updated: 2025/11/26 01:26:40 by sbansacc         ###   ########.fr       */
+/*   Updated: 2025/11/26 18:38:35 by sbansacc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,11 @@ int main(void)
 
     // Test d'énergie
     for (int i = 0; i < 10; i++)
+	{
         a.attack("Bob");
-    a.takeDamage(150);
+		b.takeDamage(3);
+	}
+		a.takeDamage(150);
     a.takeDamage(1);
     return 0;
 }
